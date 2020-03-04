@@ -1,0 +1,575 @@
+@media  screen and (max-width:640px){
+    body{
+        background: linear-gradient(#7BBC7B,#243819);
+        margin: 0px;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    /** Box Acceuil (fonctionnel)**/
+    header{
+        height: 23.438em;
+        width: 100%;
+        background-image: url("image/acceuil.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #titre {
+        margin-top: 0;
+        text-align: center;
+        background-color: #B1B2A7;
+        border-radius: 25px;
+        border: black 1px solid;
+        font-family: Great Vibes;
+        color: white;
+        padding-top: 0.2em;
+        letter-spacing: 0.08em;
+    }
+    
+    /** Box circuit (fonctionnel)**/
+    #circuit a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    ul{
+        padding-left: 0px;
+    }
+    
+    #circuit img {
+        margin: 0.5em;
+        float: left;
+    }
+    
+    #circuit p {
+        padding: 0.5em;
+        margin: 0px;
+    }
+    
+    #circuit li {
+        background-color: white;
+        margin-left: 10%;
+        margin-bottom: 1em;
+        list-style-type: none;
+        width: 80%;
+        height: 7.125em;
+        overflow: scroll;
+    }
+    
+    #circuit img {
+        height: 6.25em;
+        width: 6.25em;
+    }
+    
+    /** Box menu (fonctionnel)**/
+    nav {
+        visibility: hidden;
+        position: absolute;
+        top: -20px;
+        right: 0px;
+    }
+    header #imagemenu img {
+        width: 2em;
+        height: 2em;
+        padding: 0.4em;
+        background-color:rgb(217,217,217,0.7) ;
+        border-radius: 10px;   
+    }
+    
+    #imagemenu {
+        width: fit-content;
+        position: absolute;
+        right: 0;
+    }
+    
+    nav #imagemenu  {
+        top: 22em;
+        left: -38px;
+    }
+    
+    nav:target{
+        visibility: visible;
+    }
+    
+    div:target{
+        visibility: hidden;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    nav li {
+        width: 18.75em;
+        height: 6.313em;
+        background-color: #A2B7AC;
+        border: black 1px solid;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    
+    nav li img {
+        margin-top: 0.5em;
+        align-self: center;
+    }
+    
+    nav li p {
+        display: flex;
+        align-self: center;
+    }
+    
+    nav div {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    nav #connect div {
+        margin-left: 4.7em;
+    }
+    
+    nav  #tel {
+        display: flex;
+        flex-direction: row;
+        background-color: greenyellow;
+        border: black 1px solid;
+        width: 12.125em;
+        height: 2.813em;
+        align-items: center;
+    }
+    
+    #connect {
+        justify-content: start;
+    }
+    
+    #mini {
+        font-size: xx-small;
+    }
+    
+    #ole {
+        align-self: flex-start;
+        margin: 0px;
+        padding-left: 0.3em;
+    }
+    
+    #resa {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #iconP {
+        width: 2.207em;
+        height: 1.875em;
+    }
+    
+    #iconTel {
+        margin: 0.5em;
+        width: 1.938em;
+        height: 1.938em;
+    }
+    
+    /** Box formulaire **/ 
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    form div {
+        width: 80%;
+    }
+    #formulaire {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0.6em;
+    }
+    #formulaire div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0.6em;
+    }
+
+    #formulaire div input{
+        width: 40%;
+        font-size:10px;
+        text-align: center;
+    }
+
+    #formulaire #button input{
+        width: 20%;
+        height: 3em;
+        justify-content: center;
+        font-size: 10px;
+    }
+    #send input{
+        text-align: center;
+    }
+
+    #formulaire #send{
+        margin: 0px;
+        justify-self: end;
+        height: 2em;
+        width: 10em;
+        justify-content: center;
+    }
+    
+    #desti {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .desti {
+        width: 10.938em;
+        height: 5.938em;
+        margin: 0.5em;
+    }
+    
+    #formulaire input {
+        background-color: white;
+        display: flex;
+        
+    }
+    
+    #button {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        padding-bottom: 0.6em;
+    }
+    
+    .date {
+        width: 10.938em;
+        height: 5.938em;
+        margin: 0.5em;
+    }
+    
+    /**  box footer (fonctionnel) **/
+    
+    footer{
+        background-color: white;
+        width: 100%;
+        font-size: x-small;
+    }
+    
+    footer h3 {
+        padding-left: 0.6em;
+    }
+    
+    footer p {
+        padding: 0.6em;
+        padding-top: 0;
+    }
+    
+    #footer{
+        display: flex;
+        justify-content: space-around;
+        padding: 1em;
+        padding-bottom: 0px;
+    }
+    
+    #footer img {
+        height: 2.5em;
+        width: 2.5em;
+        flex-direction: row;
+    
+    }
+    
+}
+
+@media screen and (min-width:641px) {
+    body{
+        background: linear-gradient(#7BBC7B,#243819);
+        margin: 0px;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    /** Box Acceuil (fonctionnel)**/
+    header{
+        height: 44.563em;
+        width: 100%;
+        background-image: url("image/acceuil.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #titre {
+        margin-top: 0;
+        text-align: center;
+        background-color: #B1B2A7;
+        border-radius: 50px;
+        border: black 1px solid;
+        font-family: Great Vibes;
+        color: white;
+        font-size: 50px;
+        padding-top: 0.2em;
+        letter-spacing: 0.08em;
+    }
+    
+  
+    
+    /** Box circuit (fonctionnel)**/
+    #circuit a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    ul{
+        padding-left: 0px;
+        
+    }
+    
+    #circuit img {
+        margin: 0.5em;
+        float: left;
+        height: 9em;
+        width: 9em;
+    }
+    
+    #circuit p {
+        padding: 0.5em;
+        margin: 0px;
+        font-size: 20px;
+    }
+    
+    #circuit li {
+     background-color: white;
+     margin-left: 10%;
+     margin-bottom: 2em;
+     list-style-type: none;
+     width: 80%;
+     height: 10em;
+     overflow: scroll;
+    }
+    
+    /** Box menu (fonctionnel)**/
+    nav {
+        visibility: hidden;
+        position: absolute;
+        top: -20px;
+        right: 0px;
+    }
+    header #imagemenu img {
+        width: 3em;
+        height: 3em;
+        padding: 0.4em;
+        background-color:rgb(217,217,217,0.7) ;
+        border-radius: 10px;   
+    }
+    
+    #imagemenu {
+        width: fit-content;
+        position: absolute;
+        right: 0;
+    }
+    
+    nav #imagemenu  {
+        top: 22em;
+        left: -38px;
+    }
+    
+    nav:target{
+        visibility: visible;
+    }
+    
+    div:target{
+        visibility: hidden;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    nav li {
+        width: 25.25em;
+        height: 8.5em;
+        background-color: #A2B7AC;
+        border: black 1px solid;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    
+    nav li img {
+        margin-top: 0.5em;
+        align-self: center;
+    }
+    
+    nav li p {
+        display: flex;
+        align-self: center;
+        font-size: 20px;
+    }
+    
+    nav div {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    nav #connect div {
+        margin-left: 6.7em;
+    }
+    
+    nav  #tel {
+        display: flex;
+        flex-direction: row;
+        background-color: greenyellow;
+        border: black 1px solid;
+        width: 12.125em;
+        height: 2.813em;
+        align-items: center;
+    }
+    
+    #connect {
+        justify-content: start;
+    }
+    
+    #mini {
+        font-size: xx-small;
+    }
+    
+    #ole {
+        align-self: flex-start;
+        margin: 0px;
+        padding-left: 0.3em;
+    }
+    
+    #resa {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #iconP {
+        width: 3.125em;
+        height: 2.694em;
+    }
+    
+    #iconTel {
+        margin: 0.5em;
+        width: 1.938em;
+        height: 1.938em;
+    }
+    
+    /** Box formulaire **/ 
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    form div {
+        width: 80%;
+    }
+    #formulaire {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0.6em;
+    }
+    #formulaire div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0.6em;
+    }
+
+    #formulaire div input{
+        width: 40%;
+        font-size:20px ;
+        text-align: center;
+    }
+
+    #formulaire #button input{
+        width: 20%;
+        height: 3em;
+        justify-content: center;
+    }
+    
+
+    #formulaire #send{
+        margin: 0px;
+        justify-self: end;
+        width: 18em;
+        height: 4em;
+        justify-content: center;
+    }
+    
+    #desti {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .desti {
+        width: 17.5em;
+        height: 6em;
+        margin: 0.5em;
+        justify-content: center;
+    }
+    
+    #formulaire input {
+        background-color: white;
+        display: flex;
+        
+    }
+    
+    #button {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        padding-bottom: 0.6em;
+    }
+
+    .date {
+        width: 17.5em;
+        height: 6em;
+        margin: 0.5em;
+    }
+    
+    /**  box footer (fonctionnel) **/
+    
+    footer{
+        background-color: white;
+        width: 100%;
+        font-size: x-small;
+    }
+    
+    footer h3 {
+        padding-left: 0.6em;
+    }
+    
+    footer p {
+        padding: 0.6em;
+        padding-top: 0;
+    }
+    
+    #footer{
+        display: flex;
+        justify-content: space-around;
+        padding: 1em;
+        padding-bottom: 0px;
+    }
+    
+    #footer img {
+        height: 2.5em;
+        width: 2.5em;
+        flex-direction: row;
+    
+    }
+}
